@@ -1,0 +1,54 @@
+BACKUP ~HQ_SoundClips_BG2EE/backup~
+AUTHOR ~Argent77~
+VERSION ~1.0~
+
+README ~HQ_SoundClips_BG2EE/readme.txt~
+
+BEGIN ~Install high quality soundclips for new BG2EE content~
+  REQUIRE_PREDICATE (GAME_IS ~bg2ee eet~) ~BG2EE or EET required.~
+  DESIGNATED 0
+
+  // COPY_LARGE ~%MOD_FOLDER%/wav~ ~override~
+
+  OUTER_TEXT_SPRINT ~char~ ~[^ %TAB%%WNL%]~
+  OUTER_TEXT_SPRINT ~8char~ ~%char%%char%?%char%?%char%?%char%?%char%?%char%?%char%?~
+  OUTER_TEXT_SPRINT ~ext~ ~wav~
+  OUTER_TEXT_SPRINT ~pattern~ ~^%8char%\.%ext%$~
+
+  OUTER_SET maxTotal      = 50000000
+  OUTER_SET currentTotal  = 0
+  OUTER_SET currentFile   = 0
+  OUTER_SET filesCurrent  = 0
+  MKDIR ~%MOD_FOLDER%/temp~
+  ACTION_BASH_FOR ~%MOD_FOLDER%/wav~ ~%pattern%~ BEGIN
+    ACTION_IF ((BASH_FOR_SIZE + currentTotal > maxTotal || filesCurrent > 16383) && currentTotal > 0) BEGIN
+      ACTION_IF (currentFile < 10) BEGIN
+        OUTER_TEXT_SPRINT biffFile ~a7#snd0%currentFile%~
+      END ELSE BEGIN
+        OUTER_TEXT_SPRINT biffFile ~a7#snd%currentFile%~
+      END
+      MAKE_BIFF ~%biffFile%~ BEGIN ~%MOD_FOLDER%/temp~ ~^.*$~ END
+      OUTER_SET currentFile += 1
+      OUTER_SET currentTotal = 0
+      OUTER_SET filesCurrent = 0
+      DELETE + ~%MOD_FOLDER%/temp~
+      MKDIR ~%MOD_FOLDER%/temp~
+    END
+    ACTION_IF (FILE_EXISTS ~override/%BASH_FOR_FILE%~) BEGIN
+      DELETE ~override/%BASH_FOR_FILE%~
+    END
+    COPY + ~%MOD_FOLDER%/wav/%BASH_FOR_FILE%~ ~%MOD_FOLDER%/temp/%BASH_FOR_FILE%~
+    OUTER_SET currentTotal += BASH_FOR_SIZE
+    OUTER_SET filesCurrent += 1
+  END
+
+  ACTION_IF (currentTotal > 0) BEGIN
+    ACTION_IF (currentFile < 10) BEGIN
+      OUTER_TEXT_SPRINT biffFile ~a7#snd0%currentFile%~
+    END ELSE BEGIN
+      OUTER_TEXT_SPRINT biffFile ~a7#snd%currentFile%~
+    END
+    MAKE_BIFF ~%biffFile%~ BEGIN ~%MOD_FOLDER%/temp~ ~^.*$~ END
+  END
+
+  DELETE + ~%MOD_FOLDER%/temp~

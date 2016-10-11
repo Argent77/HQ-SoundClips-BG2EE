@@ -1,0 +1,6 @@
+*.html text
+*.tp2 text
+*.tra text
+*.txt text
+
+*.wav binary
