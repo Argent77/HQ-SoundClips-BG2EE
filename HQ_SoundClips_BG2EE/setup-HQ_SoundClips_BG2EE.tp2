@@ -2,10 +2,13 @@ BACKUP ~HQ_SoundClips_BG2EE/backup~
 AUTHOR ~Argent77~
 VERSION ~1.0~
 
-README ~HQ_SoundClips_BG2EE/readme.txt~
+README ~%MOD_FOLDER%/readme/readme-%LANGUAGE%.txt~ ~%MOD_FOLDER%/readme/readme.txt~
 
-BEGIN ~Install high quality soundclips for new BG2EE content~
-  REQUIRE_PREDICATE (GAME_IS ~bg2ee eet~) ~BG2EE or EET required.~
+LANGUAGE ~English~ ~english~ ~%MOD_FOLDER%/languages/english/setup.tra~
+LANGUAGE ~Polski (tlumaczenie: Cahir)~ ~polish~ ~%MOD_FOLDER%/languages/polish/setup.tra~
+
+BEGIN @0  // Install high quality soundclips for new BG2EE content
+  REQUIRE_PREDICATE (GAME_IS ~bg2ee eet~) @100  // BG2EE or EET required.
   DESIGNATED 0
 
   // COPY_LARGE ~%MOD_FOLDER%/wav~ ~override~
