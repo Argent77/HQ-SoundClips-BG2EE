@@ -1,7 +1,7 @@
 High Quality soundclips for BG2EE extended content
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version: 1.1
+Version: 1.2
 
 
 Overview

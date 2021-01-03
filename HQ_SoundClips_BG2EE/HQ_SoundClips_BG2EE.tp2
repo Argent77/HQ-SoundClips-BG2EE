@@ -1,6 +1,6 @@
 BACKUP ~HQ_SoundClips_BG2EE/backup~
 SUPPORT ~https://forums.beamdog.com/discussion/61849~
-VERSION ~1.1~
+VERSION ~1.2~
 
 README ~%MOD_FOLDER%/readme/readme-%LANGUAGE%.txt~ ~%MOD_FOLDER%/readme/readme.txt~
 
