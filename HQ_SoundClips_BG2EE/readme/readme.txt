@@ -11,9 +11,9 @@ Discussion: https://forums.beamdog.com/discussion/61849
 Overview
 ~~~~~~~~
 
-BG2EE since patch v1.3 contains soundclips for the BG2EE-specific content in very low quality, 
-which includes voice files for the new EE NPCs and related characters as well as for the 
-Black Pits II campaign.
+BG2EE since patch v1.3 contains English soundclips for the BG2EE-specific content in very low
+quality, which includes voice files for the new EE NPCs and related characters as well as for
+the  Black Pits II campaign.
 
 This mod installs high quality soundclips based on the original files from BG2EE patch v1.2. 
 The files have been optimized to reduce file size to 40% of the original size, by downmixing 
