@@ -24,6 +24,7 @@ LANGUAGE ~Polski (tlumaczenie: Cahir)~
 BEGIN @0  // Install high quality soundclips for new BG2EE content
   REQUIRE_PREDICATE (GAME_IS ~bg2ee eet~) @100  // BG2EE or EET required.
   DESIGNATED 0
+  LABEL ~A7-HQ_SOUNDCLIPS_BG2EE-MAIN~
 
   OUTER_TEXT_SPRINT TEMP_FOLDER ~%WORK_FOLDER%/temp/%MOD_FOLDER%~
 
