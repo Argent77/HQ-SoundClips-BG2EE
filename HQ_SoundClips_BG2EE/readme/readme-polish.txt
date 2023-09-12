@@ -28,3 +28,31 @@ Instalacja
 
 Należy rozpakować archiwum do folderu głównego BG2EE, a następnie uruchomić plik 
 „setup-HQ_SoundClips_BG2EE.exe”.
+
+
+Credits
+~~~~~~~
+
+Coding and testing: Argent77
+
+Polish translation: Cahir
+
+Brazilian Portuguese translation: Felipe
+
+
+Version History
+~~~~~~~~~~~~~~~
+
+Version 1.3
+- Added Brazilian Portuguese translation (thanks Felipe)
+- Added labels for Project Infinity
+
+Version 1.2
+- Added Project Infinity support
+
+Version 1.1
+- Added Polish translation (thanks Cahir)
+
+
+Version 1.0
+- Initial release

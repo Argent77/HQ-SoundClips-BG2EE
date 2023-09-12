@@ -2,7 +2,7 @@
 [![Github downloads (all releases)](https://img.shields.io/github/downloads/Argent77/HQ-SoundClips-BG2EE/total.svg?color=gold)](https://github.com/Argent77/HQ-SoundClips-BG2EE/releases)
 [![Platform](https://img.shields.io/static/v1?label=platform&message=Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Project%20Infinity&color=informational)](https://github.com/Argent77/HQ-SoundClips-BG2EE/releases/latest)
 [![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BG2%3AEE%20%7C%20EET&color=indigo)](https://github.com/Argent77/HQ-SoundClips-BG2EE)
-[![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20Polish&color=limegreen)](https://github.com/Argent77/HQ-SoundClips-BG2EE)
+[![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20Polish%20%7C%20Brazilian%20Portuguese&color=limegreen)](https://github.com/Argent77/HQ-SoundClips-BG2EE)
 
 # High Quality soundclips for BG2EE extended content
 *Restores high quality sound files for extended BG2EE content which were lost since game patch v1.3.*

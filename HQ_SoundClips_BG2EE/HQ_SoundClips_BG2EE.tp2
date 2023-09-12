@@ -19,6 +19,10 @@ LANGUAGE ~Polski (tlumaczenie: Cahir)~
          ~polish~
          ~HQ_SoundClips_BG2EE/languages/english/setup.tra~
          ~HQ_SoundClips_BG2EE/languages/polish/setup.tra~
+LANGUAGE ~Brazilian Portuguese (translation: Felipe)~
+         ~brazilianportuguese~
+         ~HQ_SoundClips_BG2EE/languages/english/setup.tra~
+         ~HQ_SoundClips_BG2EE/languages/brazilianportuguese/setup.tra~
 
 
 BEGIN @0  // Install high quality soundclips for new BG2EE content
