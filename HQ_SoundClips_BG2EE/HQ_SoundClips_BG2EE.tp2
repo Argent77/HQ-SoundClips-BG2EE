@@ -1,6 +1,6 @@
 BACKUP ~weidu_external/backup/HQ_SoundClips_BG2EE~
 SUPPORT ~https://forums.beamdog.com/discussion/61849~
-VERSION ~1.2~
+VERSION ~1.3~
 
 ALWAYS
   // required because of non-standard BACKUP path

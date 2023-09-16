@@ -1,7 +1,7 @@
 High Quality soundclips for BG2EE extended content
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Wersja:     1.2
+Wersja:     1.3
 Autor:      Argent77
 
 Download:   https://github.com/Argent77/HQ-SoundClips-BG2EE/releases/latest
