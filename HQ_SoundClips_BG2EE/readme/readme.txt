@@ -26,7 +26,8 @@ The mod can be installed in BG2:EE and EET (Enhanced Edition Trilogy).
 Installation
 ~~~~~~~~~~~~
 
-Unpack the mod archive into the BG2EE root folder and execute "setup-HQ_SoundClips_BG2EE.exe".
+Unpack the mod archive into the BG2EE root folder and execute "setup-HQ_SoundClips_BG2EE.exe" (Windows),
+"setup-HQ_SoundClips_BG2EE.sh" (Linux) or "setup-HQ_SoundClips_BG2EE.command" (macOS).
 
 
 Credits
